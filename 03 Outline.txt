@@ -1,0 +1,21 @@
+1. konfigurasi .env
+2. buat database di phpmyadmin
+3. buat migration pasien -> create_pasiens_table
+4. jalankan migrate
+5. isi data tabel pasien
+6. perbaiki template
+	- form -> Master Data
+	- form-validation -> pasien
+7. buat halaman view master_pasien.index
+	- edit template (sidebar)
+	- tambahkan route
+	- buat controller
+	- buat model MasterPasien
+	- buat halaman view data pasien
+8. tampilkan tabel data pasien (template dari data tables)
+	- hapus semua data fake dari template
+	- tambahkan kolom aksi (edit, delete)
+	- load data dari database
+10. tambahkan tombol tambah data
+11. buat form tambah data (jendela modal)
+
